@@ -1,0 +1,135 @@
+body {
+    width: 1800px;
+    margin: auto;
+}
+
+span{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*IDS*/
+
+#tudo {
+    width: 50%;
+    margin: 0px auto;
+    padding: 10px 30px 55px 30px;
+    border: 1px solid;
+}
+
+#retangulo {
+    text-align: center;
+    background-color: rgb(52, 170, 150);
+    border-radius: 10px;
+    height: 40px;
+    margin: 20px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/*CLASSES*/
+
+.img1 {
+    border-radius: 50%;
+    margin-top: 0px;
+    border: 3px solid rgb(51, 50, 50);
+    float: left;
+    margin-left: 2%;
+}
+
+.hrcentro {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: rgb(52, 170, 150);
+    float: right;
+    width: 77%;
+    margin-top: 12px;
+    margin-right: 2cm;
+}
+
+.linha {
+    clear: both;
+}
+
+.linhas2 {
+    border-bottom: 2px solid rgb(52, 170, 150);
+    width: 47%;
+    text-indent: 0.5em;
+    margin-top: 15px;
+}
+
+.space {
+    line-height: 1.5px;
+}
+
+.esquerda {
+	display: flexbox;
+	width:40%;
+	margin-top: 0px;
+}
+
+.circle {
+    display: flexbox;
+    flex-direction: row-reverse;
+	width: 7px;
+	height: 7px;
+	background-color: rgb(52, 170, 150);
+	border-radius: 50%;
+	float: right;
+    margin-right: 5px;
+    border:2px solid rgb(52, 170, 150);
+}
+
+.circle2 {
+    display: flexbox;
+	width: 7px;
+	height: 7px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+	float: right;
+    margin-right: 5px;
+    border:2px solid rgb(52, 170, 150);
+}
+
+.centro {
+    display: flexbox;
+    flex-direction: row-reverse;
+	width: 2px;
+	height: 581px;
+	background-color: rgb(52, 170, 150);
+	margin-left: 50%;
+	margin-right: 50%;
+	border-radius: 30%;
+	margin-top: -638px;
+}
+
+.ex {
+    width: 47%;
+    float: right;
+    margin: 0px;
+    margin-top: -563px;
+}
+.ex h2 {
+    border-bottom: 2px solid rgb(52, 170, 150);
+    width: 100%;
+    text-indent: 0.5em;
+    margin-top: 15px;
+}
+
+.experiencia p {
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 35px;    
+    margin-top: 0px;
+    font-weight: 500;
+}
+.ep {
+    font-size: 120% !important;
+    display: inline-block;
+    margin: 0px 7px !important;
+    padding: 0px !important;
+}
