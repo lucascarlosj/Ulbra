@@ -1,8 +1,8 @@
 body {
   font-family: sans-serif;
   background-color: whitesmoke;
-  max-width: auto;
-  min-width: auto;
+  width: 1903px;
+  margin: auto;
 }
 
 header {
@@ -153,7 +153,6 @@ tr {
 
 .stat {
   background-color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
   padding: 8px 9px 8px 8px;
 }
-
