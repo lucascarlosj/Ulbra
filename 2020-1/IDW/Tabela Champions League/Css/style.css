@@ -194,7 +194,7 @@ tr {
   padding-right: 10px;
 }
 
-.colum {
+.column_jogos {
   padding: 13px 13px;
   width: 305px;
   border: 1px solid rgb(219, 219, 219);
@@ -217,7 +217,7 @@ tr {
 }
 
 
-.colum_buttom {
+.column_buttom {
   padding: 13px 13px;
   width: 100%;
   border: 1px solid rgb(219, 219, 219);
