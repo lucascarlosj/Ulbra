@@ -153,3 +153,75 @@ tr {
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
   padding: 8px 9px 8px 8px;
 }
+
+.container_jogos {
+  width: 35%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.container_cab_jogos {
+  border: 1px solid rgb(218, 217, 217);
+  background-color: whitesmoke;
+  padding: 13px;
+  
+}
+
+.container_tabela_jogos td {
+  padding-left: 4%;
+}
+
+.container_tabela_jogos img {
+  padding: 0px 50x 0px 0px;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.column img {
+  padding-right: 10px;
+}
+
+.colum {
+  padding: 13px 13px;
+  width: 305px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.fim{
+  float: right;
+  width: 20%;
+  margin-top: 14px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.placar {
+  float: right;
+  width: 20%;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+
+.colum_buttom {
+  padding: 13px 13px;
+  width: 100%;
+  border: 1px solid rgb(219, 219, 219);
+  font-style: italic;
+  font-size: 15px;
+}
+
