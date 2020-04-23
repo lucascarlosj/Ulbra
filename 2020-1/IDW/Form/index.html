@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" tipe="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <section>
+            <h1>Formulário HTML</h1>
+            <article>
+                <form action="http://vinicius.pro.br/idw/receiveForm.php" method="POST">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome">
+
+                        <label for="sobrenome" style="margin-left: 20px;">Sobrenome:</label>
+                        <input type="text" name="sobrenome"><br><br>
+
+                        <label type="data">Nascimento:</label>
+                        <input type="date" name="data"><br><br>
+
+                        <label for="rg">RG:</label>
+                        <input type="text" name="rg"><br><br>
+
+                        <label for="cpf">CPF:</label>
+                        <input type="text" name="cpf" maxlength="9" size="9px"> - <input maxlength="2" size="1px"><br><br>
+                    </fieldset><br><br>
+                  
+                    <fieldset>
+                        <legend>Dados de Endereço</legend>
+                        <label for="rua">Rua:</label>
+                        <input type="text" name="rua">
+
+                        <label for="numero" style="margin-left: 20px;">Numero:</label>
+                        <input type="text" name="numero" maxlength="5" size="5px"><br><br>
+
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" name="bairro"><br><br>
+
+                        <label for="estados">Estados:</label>
+                        <select type="select" name="estados">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select><br><br>    
+
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" name="cidade"><br><br>
+
+                        <label for="cep">CEP:</label>
+                        <input type="text" name="cep" maxlength="5" size="5px"> - <input maxlength="3" size="3px"><br><br>
+                    </fieldset><br><br>
+        
+                    <fieldset>
+                        <legend>Dados de Login</legend>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email"><br><br>
+
+                        <label for="file">Foto:</label>
+                        <input type="file" name="file"><br><br>
+
+                        <label for="login">Login:</label>
+                        <input type="login" name="login"><br><br>
+
+                        <label for="password">Senha:</label>
+                        <input type="password" name="password"><br><br>
+
+                        <label for="csenha">Confirmar Senha:</label>
+                        <input type="password" name="csenha"><br><br><br>
+                    </fieldset><br>
+                    
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </form>
+            <article>
+        </section>
+    </div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,14 @@
+body {
+    margin-left: 25%;
+    font-family: 'Roboto', sans-serif;
+}
+
+fieldset {
+    width: 950px;
+}
+
+label {
+    display: inline-block;
+    width:100px;
+    text-align: left;
+}
