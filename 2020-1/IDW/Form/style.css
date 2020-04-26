@@ -1,14 +1,42 @@
 body {
-    margin-left: 25%;
-    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+h1 {
+    text-align: center;
 }
 
 fieldset {
     width: 950px;
+    border-radius: 10px;
+    border-color: rgba(0,0,0,0.06);
+    box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.1);
 }
 
 label {
     display: inline-block;
     width:100px;
     text-align: left;
+}
+
+input {
+    padding: 5px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
+    border-radius:10px; 
+    border: 1px solid #eee;
+}
+
+input:hover {
+    border: 1px solid #aaa;
+    transition: .3s border-color;
+}
+
+
+select, file {
+    padding:5px;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.0.6);
 }
