@@ -1,0 +1,83 @@
+.display-2 img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-8 img {
+    width: 25%;
+}
+
+span {
+    padding-bottom: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.wrapper section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    margin: 20px 0;
+}
+
+.wrapper section .item {
+    padding: 0 2px;
+    transition: 250ms all;
+}
+
+.wrapper section .item:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+}
+
+.wrapper section a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background: #000;
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+.wrapper section a:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.wrapper section a:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.bs-example{
+    margin: 20px;
+}
+
+.modal-content iframe{
+    margin: 0 auto;
+    display: block;
+}
