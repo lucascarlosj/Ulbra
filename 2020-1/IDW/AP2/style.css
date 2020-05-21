@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+  }
+  
+  header {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    margin: 5rem 0;
+  }
+  
+  main .img-fluid {
+    width: 100%;
+    object-fit: cover;  
+    height: 50%;
+  }
+  
+  main h1 {
+    line-height: 1.04;
+    letter-spacing: -.015em;
+    text-align: center;
+  }
+  
+  main h2 {
+    color: rgba(0, 0, 0, 0.541176);
+    font-size: 25px;
+    line-height: 1.22;
+    letter-spacing: -.012em;
+    margin-top: 5px;
+    margin-bottom: 22px;
+    text-align: center;
+  }
+  
+  main p {
+    margin-top: 29px;
+  }
+  
+  a {
+    color: tomato;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
