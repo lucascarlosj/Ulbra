@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora Basica</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+        
+        <div id="container">
+            <form name="calc">
+                <input type="text" name="output" placeholder="0" disabled="disabled">
+
+                <input type="button" value=" C " onclick="erase()">
+                <input type="button" value=" 0 " onclick="entries('0')">
+                <input type="button" value=" x " onclick="entries('*')">
+                <input type="button" value=" + " onclick="entries('+')">
+                
+                <input type="button" value=" 1 " onclick="entries('1')">
+                <input type="button" value=" 2 " onclick="entries('2')">
+                <input type="button" value=" 3 " onclick="entries('3')">
+                <input type="button" value=" - " onclick="entries('-')">
+                
+                <input type="button" value=" 4 " onclick="entries('4')">
+                <input type="button" value=" 5 " onclick="entries('5')">
+                <input type="button" value=" 6 " onclick="entries('6')">
+                <input type="button" value=" / " onclick="entries('/')">
+                
+                <input type="button" value=" 7 " onclick="entries('7')">
+                <input type="button" value=" 8 " onclick="entries('8')">
+                <input type="button" value=" 9 " onclick="entries('9')">
+                <input type="button" value=" = " onclick="calculate()">
+            </form>
+                
+        </div>
+        <script type = "text/javascript" src = "calculator.js"></script>
+    </body>
+</html>
