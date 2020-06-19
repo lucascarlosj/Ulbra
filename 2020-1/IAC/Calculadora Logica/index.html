@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados lógicos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form>
+        <div>
+            <div>
+                <select class="form-control" id="val1">
+                    <option value="0" >False (0)</option>
+                    <option value="1" >True (1)</option>
+                </select>
+            </div>
+            <div>
+                <select class="form-control" id="operation">
+                    <option value="not">not</option>
+                    <option value="and">and</option>
+                    <option value="or">or</option>
+                    <option value="xor">xor</option>
+                </select>
+            </div>
+            <div>
+                <select class="form-control" id="val2">
+                    <option value="0">False (0)</option>
+                    <option value="1">True (1)</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div>
+            <input type="button" onclick="operacoes()" value="Calcular">
+            <p id="result">Clique no botão para calcular</p>
+        </div>
+    </form>
+
+
+    <script>
+
+    </script>
+</body>
+
+</html>

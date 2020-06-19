@@ -1,0 +1,48 @@
+html {
+	background: #3fbaa0;
+}
+
+h3 {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+	color: white;
+}
+
+form {
+	text-align: center;
+}
+
+select{
+	width: 25%;
+	height: 3rem;
+	padding:.5rem;
+	font-size: 1.5rem;
+}
+
+input[type=button] {
+	text-align: center;
+	width: 15%;
+	height: 3.8rem;
+	color:#FFFFFF;
+	font-size: 2rem;
+	border: 1px solid #3fbaa0;
+	background: #298471;
+}
+
+input[type=button]:hover {
+	background: #0E735E;
+}
+
+#result {
+	text-align: center;
+	height: 3rem;
+	padding:.5rem;
+	font-size: 1.9rem;
+	text-align: middle;
+}
+
