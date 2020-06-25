@@ -4,25 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>MustPay - Me pague!</title>
 
   <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script src="script.js"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script/script.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 </head>
 <body>
-  <form method="post">
-    Cobrador: <input type="text" class="js-input-name" name="name">
-    Devedor: <input type="text" class="js-input-name2" name="name2">
-    Valor: <input type="number" class="js-input-valor" name="valor">
-    E-mail Devedor: <input type="email" class="js-input-email" name="email">
-    <textarea id="textbox" name="myTextBox" cols="50" rows="5" placeholder="Digite aqui o seu texto"></textarea>
-    <input type="button" value="Enviar" onclick="enviar()"/>
-  </form>
+
+  <header>
+      <h1>MustPay!</h1>
+    </div>
+  </header>
+
+  <section>
+    <aside>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>“Você que emprestou algum dinheiro para aquele seu amigo, 
+              parente ou algum conhecido e que ainda não te pagou, não se 
+              preocupe, basta preencher o formulário ao lado com os dados 
+              do devedor, cobrando de forma simples e eficaz para ter o seu 
+              dinheiro devolta.”</p>
+
+          </div>
+    
+          <div class="col-md-5">
+            <form method="post">
+              Cobrador: <input class="js-input-name col-md-15 mb-3 form-control" type="text" name="name">
+              Devedor: <input type="text" class="js-input-name2 col-md-15 mb-3 form-control" name="name2">
+              Valor: <input type="number" class="js-input-valor col-md-15 mb-3 form-control" name="valor">
+              E-mail Devedor: <input type="email" class="js-input-email col-md-15 mb-3 form-control" name="email">
+              <textarea class="col-md-15 mb-3 form-control" id="textbox" name="myTextBox" cols="50" rows="5" placeholder="Digite aqui o seu texto"></textarea>
+              <input class="btn btn-primary" type="button" value="Enviar" onclick="enviar()"/>
+            </form>
+          </div>
+        </div>
+      </div>  
+    </aside>
+  </section>
 </body>
 </html>
-
-
-
-
