@@ -17,24 +17,25 @@
 <body>
 
   <header>
-      <div class="sec">
-        <div class="content">
-          <h2>MustPay</h2>
-          <p style="font-style: italic;">“Você que emprestou algum dinheiro para aquele seu amigo, 
-            parente ou algum conhecido e que ainda não te pagou, não se 
-            preocupe, basta preencher o formulário abaixo com os dados 
-            do devedor, cobrando de forma simples e eficaz para ter o seu 
-            dinheiro devolta.”</p>
-        </div>
-      </section>
+    <section style="background: #11998e;background: -webkit-linear-gradient(to right, #38ef7d, #11998e);background: linear-gradient(to right, #38ef7d, #11998e);" class="jumbotron text-center">
+      <div class="container-fluid">
+        <h1 class="jumbotron-heading" style="font-size: 60px; font-weight: bolder;">MustPay!</h1>
+        <p class="lead" style="font-size: 23px; color: black;">“Você que emprestou algum dinheiro para aquele seu amigo, <br>
+          parente ou algum conhecido e que ainda não te pagou,<br> não se 
+          preocupe, basta preencher o formulário abaixo com os dados 
+          do devedor, <br>cobrando de forma simples e eficaz para ter o seu 
+          dinheiro devolta.”</p>
+        <p>
+      </div>
+    </section>
   </header>
 
-  <section>
+  <section><br><br>
     <aside>
       <div class="container-lg">
         <div class="row">
           <div class="col">
-          <img src="img/animation_640_kbvi2zfm.gif" alt="logo2" style="width: 590px;margin-left: 12%;">
+          <img class="img-fluid" src="img/animation_640_kbvi2zfm.gif" alt="logo2" style="width: 590px;margin-left: 12%;">
           </div>
     
           <div class="col-md-5">
@@ -43,13 +44,22 @@
               Devedor: <input type="text" class="js-input-name2 col-md-15 mb-3 form-control" name="name2" required="">
               Valor: <input pattern="^\d{4}-\d{3}-\d{4}$" type="number" class="js-input-valor col-md-15 mb-3 form-control" name="valor" required="">
               E-mail Devedor: <input type="email" class="js-input-email col-md-15 mb-3 form-control" name="email"required="" >
-              <textarea class="col-md-15 mb-3 form-control" id="textbox" name="myTextBox" cols="50" rows="5" placeholder="Digite aqui o seu texto"></textarea>
+              <textarea class="col-md-15 mb-3 form-control" id="textbox" name="myTextBox" cols="50" rows="5" placeholder="Digite aqui a sua mensagem"></textarea>
               <input class="btn btn-primary" type="button" value="Enviar" onclick="enviar()"/>
             </form><br><br><br>
           </div>
         </div>
       </div>  
     </aside>
-  </section>
+  </section><br><br>
+
+  <footer class="blog-footer">
+    <p>Lucas Carlos © 2020  <br> <a href="https://github.com/lucascarlosj/">Github</a>.</p>
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+  </footer>
+
+
 </body>
 </html>

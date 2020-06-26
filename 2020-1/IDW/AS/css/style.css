@@ -8,49 +8,18 @@ img {
     width: 350px;
 }
 
-.sec{
-    position: relative;
-    width: 100%;
-    height: 65vh;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,52,89,1) 0%, rgba(0,168,232,1) 90% );
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.jumbotron {
+    background-color: aqua;
 }
 
-.sec::before{
- content: '';
- position: absolute;
- bottom: 0;
- left: 0;
- width: 100%;
- height: 160px; 
- background: #fff;
- clip-path: polygon(100% 0, 0 100%,100% 105%);  
-}
-
-.content {
-    position: relative;
-    max-width: 900px;
-    text-align: center; 
-}
-
-.content h2 {
-    margin: 0;
-    padding: 0;
-    color: rgb(255, 255, 255);
-    font-size: 100px;
-}
-
-.content p {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-}
-
-.col img{
-    width: 500px;
-}
-
-.sec img{
-    width: 30px;
-}
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+  }
+  .blog-footer p:last-child {
+    margin-bottom: 0;
+  }
+  
