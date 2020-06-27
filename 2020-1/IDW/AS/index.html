@@ -39,13 +39,18 @@
           </div>
     
           <div class="col-md-5">
-            <form method="post">
+            <form class="needs-validation" method="post">
               Cobrador: <input class="js-input-name col-md-15 mb-3 form-control" type="text" name="name" required="">
+              <div class="invalid-feedback">Digite um nome valido.</div>
               Devedor: <input type="text" class="js-input-name2 col-md-15 mb-3 form-control" name="name2" required="">
-              Valor: <input pattern="^\d{4}-\d{3}-\d{4}$" type="number" class="js-input-valor col-md-15 mb-3 form-control" name="valor" required="">
-              E-mail Devedor: <input type="email" class="js-input-email col-md-15 mb-3 form-control" name="email"required="" >
-              <textarea class="col-md-15 mb-3 form-control" id="textbox" name="myTextBox" cols="50" rows="5" placeholder="Digite aqui a sua mensagem"></textarea>
-              <input class="btn btn-primary" type="button" value="Enviar" onclick="enviar()"/>
+              <div class="invalid-feedback">Digite um nome valido.</div>
+              Valor: <input  type="number" class="js-input-valor col-md-15 mb-3 form-control" name="valor" required="">
+              <div class="invalid-feedback">Digite um valor valido.</div>
+              E-mail Devedor: <input type="email" class="js-input-email col-md-15 mb-3 form-control" name="email"required="">
+              <div class="invalid-feedback">Digite um e-mail valido.</div>
+              <textarea class="col-md-15 mb-3 form-control" id="textbox" name="myTextBox" cols="50" rows="5" placeholder="Digite aqui a sua mensagem" required=""></textarea>
+              <div class="invalid-feedback">Digite uma mensagem.</div>
+              <input class="btn btn-primary"  type="submit" onclick="checkForm()" value="Enviar"/>
             </form><br><br><br>
           </div>
         </div>
@@ -54,7 +59,7 @@
   </section><br><br>
 
   <footer class="blog-footer">
-    <p>Lucas Carlos © 2020  <br> <a href="https://github.com/lucascarlosj/">Github</a>.</p>
+    <p>Lucas Carlos © 2020  <br> <a href="https://github.com/lucascarlosj/">Github</a></p>
     <p>
       <a href="#">Back to top</a>
     </p>

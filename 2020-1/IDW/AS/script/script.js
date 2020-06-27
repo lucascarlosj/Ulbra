@@ -1,3 +1,21 @@
+(function checkForm() {
+
+  window.addEventListener('load', function() {
+    var forms = document.getElementsByClassName('needs-validation');
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function() {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        } else {
+          enviar()
+          form.classList.add('was-validated');
+        }
+      }, false);
+    });
+  }, false);
+})();
+
 function enviar(){
     var nomeValue = document.querySelector(".js-input-name").value;
     var nomeValue2 = document.querySelector(".js-input-name2").value;
@@ -12,6 +30,6 @@ function enviar(){
         Subject : "MuchPay - Você esta devendo para " + nomeValue,
         Body : textValue
     }).then(
-      message => alert("Email enviado com sucesso!")
+      alert("Email enviado com sucesso!")
     );
 }
