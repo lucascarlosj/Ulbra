@@ -1,3 +1,4 @@
+//checkForm, verifica se o formulario esta devidamente preenchido, caso não, ele solicita e se estiver tudo OK somente chama a função para enviar o email.
 (function checkForm() {
 
   window.addEventListener('load', function() {
@@ -16,6 +17,7 @@
   }, false);
 })();
 
+//Função pega os valores digitados e envia para o email de destino.
 function enviar(){
     var nomeValue = document.querySelector(".js-input-name").value;
     var nomeValue2 = document.querySelector(".js-input-name2").value;

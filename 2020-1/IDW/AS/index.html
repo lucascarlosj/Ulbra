@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>MustPay - Me pague!</title>
 
   <script src="https://smtpjs.com/v3/smtp.js"></script>
@@ -14,57 +13,53 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
-
+  <!--Inicio header-->
   <header>
+    <!--Inicio section, com background linear-->
     <section style="background: #11998e;background: -webkit-linear-gradient(to right, #38ef7d, #11998e);background: linear-gradient(to right, #38ef7d, #11998e);" class="jumbotron text-center">
+      <!--Div com container bootstrap-->
       <div class="container-fluid">
+        <!--Cabeçalo pagina, jumbotrom-->
         <h1 class="jumbotron-heading" style="font-size: 60px; font-weight: bolder;">MustPay!</h1>
-        <p class="lead" style="font-size: 23px; color: black;">“Você que emprestou algum dinheiro para aquele seu amigo, <br>
-          parente ou algum conhecido e que ainda não te pagou,<br> não se 
-          preocupe, basta preencher o formulário abaixo com os dados 
-          do devedor, <br>cobrando de forma simples e eficaz para ter o seu 
-          dinheiro devolta.”</p>
-        <p>
+        <!--Descrição header-->
+        <p class="lead" style="font-size: 23px; color: black;">“Você que emprestou algum dinheiro para aquele seu amigo, <br>parente ou algum conhecido e que ainda não te pagou,<br> não se preocupe, basta preencher o formulário abaixo com os dados do devedor, <br>cobrando de forma simples e eficaz para ter o seu dinheiro devolta.”</p>
       </div>
-    </section>
-  </header>
+    </section><!--Fim section-->
+  </header><!--Fim header-->
 
+  <!--Inicio section body-->
   <section><br><br>
-    <aside>
+    <aside><!--Inicio container-->
       <div class="container-lg">
         <div class="row">
           <div class="col">
+            <!--Animação-->
           <img class="img-fluid" src="img/animation_640_kbvi2zfm.gif" alt="logo2" style="width: 590px;margin-left: 12%;">
           </div>
     
           <div class="col-md-5">
+            <!--Inicio Formulario-->
             <form class="needs-validation" method="post">
               Cobrador: <input class="js-input-name col-md-15 mb-3 form-control" type="text" name="name" required="">
-              <div class="invalid-feedback">Digite um nome valido.</div>
               Devedor: <input type="text" class="js-input-name2 col-md-15 mb-3 form-control" name="name2" required="">
-              <div class="invalid-feedback">Digite um nome valido.</div>
               Valor: <input  type="number" class="js-input-valor col-md-15 mb-3 form-control" name="valor" required="">
-              <div class="invalid-feedback">Digite um valor valido.</div>
               E-mail Devedor: <input type="email" class="js-input-email col-md-15 mb-3 form-control" name="email"required="">
-              <div class="invalid-feedback">Digite um e-mail valido.</div>
               <textarea class="col-md-15 mb-3 form-control" id="textbox" name="myTextBox" cols="50" rows="5" placeholder="Digite aqui a sua mensagem" required=""></textarea>
-              <div class="invalid-feedback">Digite uma mensagem.</div>
               <input class="btn btn-primary"  type="submit" onclick="checkForm()" value="Enviar"/>
             </form><br><br><br>
+            <!--Fim formulario-->
           </div>
         </div>
       </div>  
     </aside>
   </section><br><br>
 
+  <!--Inicio footer-->
   <footer class="blog-footer">
     <p>Lucas Carlos © 2020  <br> <a href="https://github.com/lucascarlosj/">Github</a></p>
-    <p>
-      <a href="#">Back to top</a>
-    </p>
   </footer>
-
-
+  <!--Fim footer-->
 </body>
 </html>
