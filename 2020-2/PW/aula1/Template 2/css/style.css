@@ -1,0 +1,50 @@
+nav {
+    font-size: 20px;
+}
+
+a:first-child {
+    font-size: 20px;
+}
+
+p {
+    font-size: 23px;
+    text-align: center;
+    color: white;
+
+}
+
+.jumbotron{
+    background-color: #1ABC9C !important;
+}
+
+img {
+    width: 32%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    padding-bottom: 100px;
+}
+
+section > .jumbotron{
+    background-color: #474E5D !important;
+    margin-top: -50px;
+}
+
+h3 {
+    font-size: 23px;
+    text-align: center;
+}
+
+.card-text {
+    color: black;
+}
+
+
+
+footer{
+    color: white;
+}
